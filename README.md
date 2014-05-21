@@ -10,3 +10,5 @@ To run the tagger type this in the command line:
     ./run
 
 This simple script trains and tests the POS tagger on Brown corpus and the result is stored in 'prediction.pos' file.
+
+Note: The 'utils.py' and 'score.py' is written by Filip Jurcicek.
