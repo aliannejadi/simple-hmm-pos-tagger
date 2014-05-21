@@ -1,0 +1,5 @@
+#! /bin/bash
+
+cat trn.pos | ./main.py tst.pos > prediction.pos
+
+./score.py tst.pos prediction.pos
